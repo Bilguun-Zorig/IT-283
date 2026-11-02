@@ -15,9 +15,9 @@ public class TicketMachine {
 //    }
     //Parameter Constructor
     public TicketMachine (int cost){
-        this.price = cost;
-        this.balance = 0;
-        this.total = 0;
+        price = cost;
+        balance = 0;
+        total = 0;
     }
 
     //Method - Accessor/Getter
@@ -40,7 +40,14 @@ public class TicketMachine {
         balance = balance + amount;
     }
 
+    public void printTicket(){
+        System.out.println("--- Columbia Ticket ---");
+        System.out.println("The Price " + price);
 
+        // total = total + balance
+        total += balance;
+        balance = 0;
+    }
 
 
 
