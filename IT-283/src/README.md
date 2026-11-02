@@ -17,22 +17,25 @@ Example:
 An object is an instance created from a class.
 
 Example:
+
 ```java
+import Week01.Car;
+
 Car mercedez = new Car(
-    2026, "Grey", true, 8000f, "Mercedez"
+        2026, "Grey", true, 8000f, "Mercedez"
 );
 ```
 
-This statement creates a new Car object.
+This statement creates a new Week01.Car object.
 
-- Car: The class/type
+- Week01.Car: The class/type
 - mercedez: The reference variable
 - new: Creates the object
-- Car(...): Calls the constructor
+- Week01.Car(...): Calls the constructor
 - Arguments: Initial information about the car
 
-### Car.java
-Defines the properties and methods of Car objects.
+### Week01.Car.java
+Defines the properties and methods of Week01.Car objects.
 
 Fields:
 - year (int)
@@ -47,13 +50,13 @@ Methods:
 - reverse(): Prints a reversing message
 - showDetails(String name): Changes and displays the name
 
-### Main.java
+### Week01.Main.java
 Contains the main method used to run the application.
 
 The beginning includes a commented diagnostic quiz
 covering Java fundamentals.
 
-The remaining code creates Car objects,
+The remaining code creates Week01.Car objects,
 calls methods, and displays their field values.
 
 ### Key Takeaways

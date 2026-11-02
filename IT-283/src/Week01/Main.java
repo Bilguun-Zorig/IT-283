@@ -1,3 +1,5 @@
+import Week01.Car;
+
 public static void main(String[] args) {
 //    System.out.println("Hello World");
 //    System.out.println(123);
@@ -19,38 +21,40 @@ public static void main(String[] args) {
 //    }
 
   // Object #1
-// This creates a Car object
+// This creates a Week01.Car object
     Car mercedez = new Car(2026, "Grey", true, 8000, "Mercedez");
 
     // Calling its methods on the existing mercedez object
-    mercedez.start();
-    mercedez.stop();
-    // This will change its stored name
-    mercedez.showDetails("Mercedez G-Class");
+//    mercedez.start();
+//    mercedez.stop();
+//    // This will change its stored name
+//    mercedez.showDetails("Mercedez G-Class");
 
     //Display object fields
-    System.out.println(mercedez.name);
-    System.out.println(mercedez.price);
-    System.out.println(mercedez.color);
-    System.out.println(mercedez.year);
-    System.out.println(mercedez.isNew);
+//    System.out.println(mercedez.name);
+//    System.out.println(mercedez.price);
+//    System.out.println(mercedez.color);
+//    System.out.println(mercedez.year);
+//    System.out.println(mercedez.isNew);
 
     // Object #2
-//    Car bmw = new Car();
+//    Week01.Car bmw = new Week01.Car();
 //    bmw.start();
 //    bmw.stop();.
 //    bmw.reverse();
 //    bmw.showDetails("BMW");
 
 
-//    // Car 1
+//    // Week01.Car 1
 //    String mercedez_start = "The car has started";
 //    System.out.println(mercedez_start);
 //
-//    // Car 2
+//    // Week01.Car 2
 //    String bmw_start = "The car has started";
 //    System.out.println(bmw_start);
-//    //Car 3
+//    //Week01.Car 3
 //    String audi_start = "The car has started";
 //    System.out.println(audi_start);
+
+
 }

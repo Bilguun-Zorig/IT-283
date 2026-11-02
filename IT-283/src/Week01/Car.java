@@ -1,4 +1,6 @@
-// Defines a class named Car which acts as the blueprint for Car objects
+package Week01;
+
+// Defines a class named Week01.Car which acts as the blueprint for Week01.Car objects
 public class Car {
 
     //Property or fields - store the information
@@ -8,7 +10,7 @@ public class Car {
     float price;
     String name;
 
-    //Constructors - Receives information when a Car object is created and initializes its fields.
+    //Constructors - Receives information when a Week01.Car object is created and initializes its fields.
     // A constructor runs when a new object is created. It takes the values provided by the programmer and stores them in that object's fields.
     //Parameter constructor
     public Car (int year, String color, boolean isNew, float price, String name) {

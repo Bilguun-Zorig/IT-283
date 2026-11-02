@@ -45,7 +45,7 @@ Stage all changed files:
 
 Stage one specific file:
 
-    git add Car.java
+    git add Week01.Car.java
 
 Commit your changes:
 
